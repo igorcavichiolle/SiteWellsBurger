@@ -1,0 +1,40 @@
+	.table-wrapper {
+		-webkit-overflow-scrolling: touch;
+	}
+
+	table {
+		margin: 0 0 2em 0;
+		width: 100%;
+	}
+	
+
+
+	table tbody tr {
+		border: solid 1px rgba(210, 215, 217, 0.75);
+		border-left: 0;
+		border-right: 0;
+	}
+
+	table tbody tr:nth-child(2n + 1) {
+		background-color: rgba(230, 235, 237, 0.25);
+	}
+
+	table td {
+		padding: 0.75em 0.10em;
+
+	}
+
+	table th {
+		color: #8CC63E;
+		font-size: 0.9em;
+		font-weight: 600;
+		padding: 0 0.75em 0.75em 0.75em;
+		text-align: left;
+	}
+	#direito{
+		text-align:right;
+	}
+	.alinhamento{
+		padding-left: 30px;
+		padding-right: 30px;
+	}
